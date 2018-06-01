@@ -13,4 +13,4 @@
 
 from PyInstaller.__main__ import run
 run()
-酸奶
+酸奶的
