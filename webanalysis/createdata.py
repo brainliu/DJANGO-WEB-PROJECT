@@ -1,14 +1,10 @@
 # -*- coding: UTF-8 -*-
 # Author: brain 
-# Created_time:2018/6/5 11:50
+# Created_time:2018/6/5 14:38
 # file:createdata.py
 # location :china chengdu 61000
-'''
-create some records for demo database
-'''
-
-from webanalysi.wsgi import *
-from data.models import Column, Article
+from webanalysis.wsgi import *
+from news.models import Column, Article
 
 
 def main():
