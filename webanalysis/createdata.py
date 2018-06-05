@@ -18,7 +18,7 @@ def main():
         c = Column.objects.get_or_create(name=column_name, slug=url)[0]
 
         # 创建 10 篇新闻
-        for i in range(1, 11):
+        for i in range(14, 18):
             article = Article.objects.get_or_create(
                 title='{}_{}'.format(column_name, i),
                 slug='article_{}'.format(i),
